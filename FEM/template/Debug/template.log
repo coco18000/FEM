@@ -1,0 +1,31 @@
+﻿2016/07/13 22:37:23 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\GAME\FEM\template\template.vcxproj" (Build ターゲット)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (template.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Element.cpp InputKey.cpp MyMath.cpp Node.cpp Object.cpp main.cpp
+         Element.cpp
+         コードを生成中...
+         コンパイル中...
+         main.cpp
+         Object.cpp
+     1>d:\game\fem\template\object.cpp(44): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\game\fem\template\object.cpp(132): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         Node.cpp
+     1>d:\game\fem\template\node.cpp(16): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         MyMath.cpp
+     1>d:\game\fem\template\mymath.cpp(47): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         InputKey.cpp
+         コードを生成中...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GAME\FEM\Debug\FEM.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GAME\FEM\Debug\FEM.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GAME\FEM\Debug\FEM.lib" /MACHINE:X86 Debug\Element.obj
+         Debug\InputKey.obj
+         Debug\main.obj
+         Debug\MyMath.obj
+         Debug\Node.obj
+         Debug\Object.obj
+         template.vcxproj -> D:\GAME\FEM\Debug\FEM.exe
+     1>プロジェクト "D:\GAME\FEM\template\template.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:06.19
